@@ -10,53 +10,48 @@ const Services = () => {
         <div id="services" className="bg-gray-100 py-12" >
             <section data-aos="zoom-in-down">
                     <div className="my-4 py-4">
-                        <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">services</h2>
+                        <h2 className="my-2 text-center text-3xl text-gray-100 uppercase font-bold">services</h2>
                         
                         <div className='flex justify-center'>
-                            <div className='w-24 border-b-4 border-blue-900'></div>
+                            <div className='w-24 border-b-4 text-gray-50'></div>
                         </div>
-                        <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-blue-900">We are deeply committed to the growth and success of our clients.</h2>
                     </div>
 
                     <div className="px-12" data-aos="fade-down" data-aos-delay="600">
                         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
                             
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            <div className="bg-gray-100 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Driveways</h2>
                                     <p className="text-md font-medium">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Our expertly crafted concrete driveways are designed to withstand heavy use and the elements while enhancing the curb appeal of your property. We offer a range of finishes, including brushed, stamped, and exposed aggregate, to complement the aesthetic of your home. Our driveways are built to last, ensuring durability and longevity
                                     </p>
                                 </div>
                             </div>
 
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            <div className="bg-gray-100 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Patios</h2>
                                     <p className="text-md font-medium">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Transform your outdoor living space with our custom concrete patios. Ideal for entertaining or relaxing, our patios can be tailored to your specific style and functional needs. Choose from a variety of textures and patterns, including stamped concrete and decorative overlays, to create a beautiful and lasting addition to your home
                                     </p>
                                 </div>
                             </div>
 
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                            <div className="bg-gray-100 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
-                                    <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Sidewalks</h2>
                                     <p className="text-md font-medium">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    We specialize in creating durable and safe concrete sidewalks that provide a clean, attractive pathway for pedestrians. Whether you need a new installation or repairs to existing sidewalks, our team ensures smooth, even surfaces that comply with all safety regulations and enhance the overall look of your property
                                     </p>
                                 </div>
                             </div>
-
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+  
+                            <div className="bg-gray-100 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">& Much More</h2>
                                     <p className="text-md font-medium">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    We offer a wide range of other concrete services to meet your needs. This includes concrete foundations, retaining walls, pool decks, and decorative concrete solutions. No matter the project, our team delivers high-quality workmanship and exceptional customer service to ensure your complete satisfaction
                                     </p>
                                 </div>
                             </div>                    
